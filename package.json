@@ -1,0 +1,30 @@
+{
+  "name": "ayuki",
+  "version": "1.0.0",
+  "description": "A general use discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunauii/ayuki.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "lunaui"
+  ],
+  "author": "Lunaui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lunauii/ayuki/issues"
+  },
+  "homepage": "https://github.com/lunauii/ayuki#readme",
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  }
+}
