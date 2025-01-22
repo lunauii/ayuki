@@ -16,7 +16,6 @@ module.exports = {
 			return interaction.reply(`There is no command with name \`${commandName}\`!`);
 		}
 
-        
         if (interaction.user.id === '855838520182046731') {
             delete require.cache[require.resolve(`./${command.data.name}.js`)];
 

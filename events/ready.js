@@ -1,4 +1,5 @@
 const { Events } = require('discord.js');
+cron = require('node-cron');
 
 module.exports = {
 	name: Events.ClientReady,
